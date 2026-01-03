@@ -10,12 +10,11 @@ Designed for **Competitive Programming** and **Computer Science Students**.
 ## 📂 Directory Structure
 
 ```text
-.
 ├── Basics/                 # CP Templates, Fast I/O, Time Complexity
-├── DataStructures/         # Vectors, Sets, Maps, Stacks, Queues, Segment Trees, DSU
-├── Algorithms/             # Sorting, Binary Search, Two Pointers, Greedy
+├── DataStructures/         # Vectors, Maps, PQ, Segment Trees, DSU
+├── Algorithms/             # Sorting, Binary Search, Sliding Window, Kadane
 ├── Math/                   # Number Theory, Primes, GCD/LCM
-├── GraphTheory/            # BFS, DFS, Graph Representations
+├── GraphTheory/            # BFS, DFS, Dijkstra, Floyd-Warshall
 ├── DynamicProgramming/     # Knapsack, LCS, LIS, Coin Change
 ├── Strings/                # KMP, Rabin-Karp, Trie
 ├── Backtracking/           # N-Queens, Sudoku, Permutations
