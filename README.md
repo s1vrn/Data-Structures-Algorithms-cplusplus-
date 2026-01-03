@@ -11,6 +11,7 @@ Designed for **Competitive Programming** and **Computer Science Students**.
 
 ```text
 ├── Basics/                 # CP Templates, Fast I/O, Time Complexity
+│   └── Syntax/             # Beginner Tutorials (Vars, Loops, If-Else)
 ├── DataStructures/         # Vectors, Maps, PQ, Segment Trees, DSU
 ├── Algorithms/             # Sorting, Binary Search, Sliding Window, Kadane
 ├── Math/                   # Number Theory, Primes, GCD/LCM
