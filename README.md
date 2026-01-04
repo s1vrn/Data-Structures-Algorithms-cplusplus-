@@ -10,16 +10,16 @@ Designed for **Competitive Programming** and **Computer Science Students**.
 ## 📂 Directory Structure
 
 ```text
-├── Basics/                 # CP Templates, Fast I/O, Complexity, Debugging, STL Guide
+├── Basics/                 # [Practice](Basics/practice_problems.md) | CP Templates, Fast I/O, Complexity, Debugging, STL Guide
 │   └── Syntax/             # Beginner Tutorials (Vars, Loops, Pointers, Structs, etc.)
-├── DataStructures/         # Vectors, Maps, PQ, Segment Trees, DSU
-├── Algorithms/             # Sorting, Binary Search, Sliding Window, Kadane
-├── Math/                   # Number Theory, Primes, GCD/LCM
-├── GraphTheory/            # BFS, DFS, Dijkstra, Floyd-Warshall
-├── DynamicProgramming/     # Knapsack, LCS, LIS, Coin Change
-├── Strings/                # KMP, Rabin-Karp, Trie
-├── Backtracking/           # N-Queens, Sudoku, Permutations
-└── BitManipulation/        # Bitwise Tricks, Subsets
+├── DataStructures/         # [Practice](DataStructures/practice_problems.md) | Vectors, Maps, PQ, Segment Trees, DSU
+├── Algorithms/             # [Practice](Algorithms/practice_problems.md) | Sorting, Binary Search, Sliding Window, Kadane
+├── Math/                   # [Practice](Math/practice_problems.md) | Number Theory, Primes, GCD/LCM
+├── GraphTheory/            # [Practice](GraphTheory/practice_problems.md) | BFS, DFS, Dijkstra, Floyd-Warshall
+├── DynamicProgramming/     # [Practice](DynamicProgramming/practice_problems.md) | Knapsack, LCS, LIS, Coin Change
+├── Strings/                # [Practice](Strings/practice_problems.md) | KMP, Rabin-Karp, Trie
+├── Backtracking/           # [Practice](Backtracking/practice_problems.md) | N-Queens, Sudoku, Permutations
+└── BitManipulation/        # [Practice](BitManipulation/practice_problems.md) | Bitwise Tricks, Subsets
 ```
 
 ## 🚀 Quick Start
