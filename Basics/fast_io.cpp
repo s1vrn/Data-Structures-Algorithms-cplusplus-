@@ -1,44 +1,52 @@
 /**
- * Fast I/O Explanation
+ * ⚡ Fast I/O: Why and How?
  * 
- * In Competitive Programming, input and output speed can sometimes be the difference
- * between Time Limit Exceeded (TLE) and Accepted (AC), especially when dealing with
- * millions of input lines.
+ * In Competitive Programming, handling 1 million numbers with standard 'cin' 
+ * can take > 2 seconds. Proper optimization brings it down to < 0.2 seconds.
  */
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-int main() {
-    // 1. ios_base::sync_with_stdio(false);
-    //    By default, C++ streams (cin/cout) are synchronized with C standard streams (scanf/printf).
-    //    This allows you to mix them safely but comes with a performance penalty.
-    //    Disabling synchronization speeds up C++ streams significantly.
-    ios_base::sync_with_stdio(false);
+/**
+ * 1. ios_base::sync_with_stdio(false);
+ * -----------------------------------
+ * By default, C++ cin/cout stays in "sync" with C's scanf/printf.
+ * This synchronization makes sure you can mix both in one program safely.
+ * However, this sync is VERY SLOW. We turn it off for CP.
+ * 
+ * IMPORTANT: If you use this, DON'T use scanf/printf anymore!
+ */
 
-    // 2. cin.tie(NULL);
-    //    By default, cin is tied to cout. This means that before any input operation (cin),
-    //    the output buffer (cout) is flushed (printed to screen). This ensures prompt prompts
-    //    but is unnecessary for CP and slows down the program.
-    //    Untying them prevents this automatic flushing.
+/**
+ * 2. cin.tie(NULL);
+ * ----------------
+ * Normally, 'cin' is "tied" to 'cout'. Before you read input, C++ flushes 
+ * the output buffer to make sure any prompts (like "Enter name:") are visible.
+ * In CP, there are no interactive prompts. We want to read input as fast as 
+ * possible without caring about flushing output.
+ */
+
+/**
+ * 3. \n vs endl
+ * -------------
+ * 'endl' does two things:
+ *    a) Prints a newline character.
+ *    b) Forces a "flush" (clearing the buffer).
+ * Flushing is very expensive. Use "\n" instead. 
+ * It only flushes when the buffer is full (efficient).
+ */
+
+int main() {
+    // Standard setup for almost EVERY CP problem
+    ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    // Note: When using fast I/O, usually avoid using `endl`.
-    //       `endl` inserts a newline AND forces a flush.
-    //       Use `\n` instead, which is much faster.
-    
-    cout << "Enter a large number of integers (simulated): \n";
-    
-    // Example of fast reading
-    int n = 10; // Let's pretend we are reading 10^5 integers
-    for(int i = 0; i < n; i++) {
-        // cin >> x; 
-        // cout << x << "\n"; 
-    }
-    
-    cout << "Fast I/O is active!" << "\n";
+    int n;
+    // cin >> n; // This is now blazing fast!
+
+    cout << "Standard CP setup complete.\n";
 
     return 0;
 }

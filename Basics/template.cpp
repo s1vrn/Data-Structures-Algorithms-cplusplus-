@@ -1,46 +1,50 @@
 /**
- * Competitive Programming Basic Template
+ * 🏆 Ultimate Competitive Programming Template
  * 
- * This template includes standard libraries and common macros to speed up coding.
+ * This template is designed to be fast, clear, and modular.
+ * It includes the most common utilities used by top competitors.
  */
 
 #include <iostream>
 #include <vector>
-#include <string>
 #include <algorithm>
-#include <map>
-#include <set>
-#include <queue>
-#include <stack>
-#include <cmath>
+#include <string>
 
 using namespace std;
 
-// Shorteners for common types
-using ll = long long;
-using pii = pair<int, int>;
-using vi = vector<int>;
+// --- 1. Macros & Type Definitions ---
+// Short names for long types save time and reduce typos.
+typedef long long ll;
+typedef pair<int, int> pii;
+typedef vector<int> vi;
 
-// Constants
-const int INF = 1e9;
+// Use 'using' (Modern C++) instead of typedef if preferred:
+// using ll = long long;
+
+// --- 2. Constants ---
+// Good practice to define common values here.
+const int INF = 1e9 + 7;
 const ll LINF = 1e18;
-const int MOD = 1e9 + 7;
 
+// --- 3. The Solve Function ---
+// We put the logic here so we can easily run it multiple times for test cases.
 void solve() {
-    // Your solution code goes here
     int n;
-    cin >> n;
-    cout << "You entered: " << n << "\n";
+    if (!(cin >> n)) return;
+
+    // Your logic goes here
+    cout << "Processing: " << n << "\n";
 }
 
+// --- 4. Main Function ---
 int main() {
-    // Fast I/O
+    // Speed up input and output
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
+    // Multi-test case support
     int t = 1;
-    // Uncomment the next line if the problem has multiple test cases
-    // cin >> t;
+    // cin >> t; // Only uncomment if problem says "T test cases follow"
     
     while(t--) {
         solve();
