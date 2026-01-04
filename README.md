@@ -14,7 +14,7 @@ Designed for **Competitive Programming** and **Computer Science Students**.
 │   └── Syntax/             # Beginner Tutorials (Vars, Loops, Pointers, Structs, etc.)
 ├── DataStructures/         # [Practice](DataStructures/practice_problems.md) | Vectors, Maps, PQ, SegTree, DSU, Sparse Table, PBDS
 ├── Algorithms/             # [Practice](Algorithms/practice_problems.md) | Sorting, Binary Search, Sliding Window, Kadane
-├── Math/                   # [Practice](Math/practice_problems.md) | Number Theory, Primes, GCD/LCM
+├── Math/                   # [Practice](Math/practice_problems.md) | Number Theory, Modular Arithmetic, Combinatorics, Matrix Exp, Geometry
 ├── GraphTheory/            # [Practice](GraphTheory/practice_problems.md) | BFS, DFS, Dijkstra, Floyd-Warshall
 ├── DynamicProgramming/     # [Practice](DynamicProgramming/practice_problems.md) | Knapsack, LCS, LIS, Coin Change, Bitmask, Digit DP
 ├── Strings/                # [Practice](Strings/practice_problems.md) | KMP, Rabin-Karp, Trie
