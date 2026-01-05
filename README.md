@@ -17,8 +17,8 @@ Designed for **Competitive Programming** and **Computer Science Students**.
 ├── Math/                   # [Practice](Math/practice_problems.md) | Number Theory, Modular Arithmetic, Combinatorics, Matrix Exp, Geometry
 ├── GraphTheory/            # [Practice](GraphTheory/practice_problems.md) | BFS, DFS, Dijkstra, Floyd-Warshall
 ├── DynamicProgramming/     # [Practice](DynamicProgramming/practice_problems.md) | Knapsack, LCS, LIS, Coin Change, Bitmask, Digit DP
-├── Strings/                # [Practice](Strings/practice_problems.md) | KMP, Rabin-Karp, Trie
-├── Backtracking/           # [Practice](Backtracking/practice_problems.md) | N-Queens, Sudoku, Permutations
+├── Strings/                # [Practice](Strings/practice_problems.md) | KMP, Rabin-Karp, Trie, Manacher, Z-Algo, Suffix Array
+├── Backtracking/           # [Practice](Backtracking/practice_problems.md) | N-Queens, Sudoku, Word Search, Graph Coloring
 └── BitManipulation/        # [Practice](BitManipulation/practice_problems.md) | Bitwise Tricks, Subsets
 ```
 
